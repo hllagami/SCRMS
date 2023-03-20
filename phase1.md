@@ -16,7 +16,7 @@ To address these issues, a CRM software application can be designed and develope
 * To improve customer engagement and satisfaction by providing personalized experiences and tailored communication.
 
 ### Description:
-The CRM software will be designed as a web-based application that can be accessed from any device with an internet connection. The software will feature a dashboard that displays customer data, sales leads, and performance metrics in real-time. The software will also include a customer profile page that displays customer interactions, purchase history, and customer preferences.  
+The CRM software will be designed as a web-based application that can be accessed with an internet connection. The software will feature a dashboard that displays customer data, sales leads, and performance metrics in real-time. The software will also include a customer profile page that displays customer interactions, purchase history, and customer preferences.  
   
 The CRM software will automate communication with customers through email campaigns, targeted messaging, and personalized offers. The software will use machine learning algorithms to analyze customer data and provide personalized recommendations based on customer preferences and behavior.  
   

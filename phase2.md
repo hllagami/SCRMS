@@ -25,11 +25,10 @@ Deadline: 05.04.2023 23:59
       The application shall have a Lead Management section, where the company will be able to keep track of their monthly sales, by using the Customer Retention Strategy.
 - An automated feature which allows businesses to send personalized messages, emails, and offers to customers based on their behavior and preferences.  
 
-      The application shall contain an Automated Communication feature, where the company will be able to send messages to their loyal and subscribed customers
-
+      The application shall contain an Automated Communication feature, where the company will be able to send messages to their loyal and subscribed customers.
 - A Registration and Sign-In function for guests. users, and staff.  
 
-
+      The application shall have a Registration and Sign-In option, where users will be directed to their appropriate company/business.
 - Overall, it's important to ensure that the software is user-friendly and intuitive, so users can easily navigate and use all of its features.   
 
 **System Requirements:**
@@ -74,30 +73,50 @@ Deadline: 05.04.2023 23:59
   4.7 The automated communication feature should have data tracking and analytics tools to help users measure and analyze their messaging performance, such as open rates, click-through rates, or conversion rates, and identify areas for improvement and optimization.   
   4.8 The automated communication feature should provide real-time feedback and insights to users, such as alerts for high-value customers or trends in customer behavior, to help users stay on top of their communication strategy and opportunities.   
     
-5.  **Real-time Reporting:**  
-  5.1 The real-time reporting feature should provide businesses with insights into sales performance, customer engagement, and lead conversion rates.  
-  5.2 It should include dashboards for sales performance, lead conversion rates, and customer engagement.  
-  5.3 Users should be able to customize the reporting dashboards to display the metrics that are most important to their business.  
-  5.4 The real-time reporting feature should be exportable to allow users to download the data for further analysis.  
-  5.5 The real-time reporting feature should provide users with the ability to set up custom alerts and notifications based on specific metrics, such as sales targets or lead conversion rates, to help users stay informed and take action when needed.   
-  5.6 The real-time reporting feature should have data visualization capabilities, such as charts, graphs, and heat maps, to help users analyze and interpret data more easily and intuitively.   
-  5.7 The real-time reporting feature should be integrated with other tools and data sources, such as CRM, marketing automation, or social media platforms, to provide users with a comprehensive view of their business performance and customer behavior.     
-  5.8 The real-time reporting feature should allow users to track and compare performance over time, by providing historical data and trend analysis capabilities, to help users identify areas for improvement and measure the impact of their actions.    
-  5.9 The real-time reporting feature should provide users with actionable insights and recommendations, based on data analysis and machine learning algorithms, to help users make informed decisions and optimize their business performance. 
+5.  **Registration and Sign-in Page:**  
+  5.1 Guests can click on the Log-in button/option on the main page to Register or Sign-in as desired.  
+  5.2 To register, guests can submit a form which will contain their full name, username, email, password, and phone number.  
+  5.3 Users will be able to Sign-in using their username and password, and are able to Sign Out at the click of a button. 
+  5.4 Signed-In users will be redirected to their appropriate business.  
+  5.5 Users can change their passwords at a later time.  
+  5.6 A Forgot Password function will be implemented for users who have forgotten their hidden codes. This code will be sent to their email accounts as a verification.
+
+### Application Specifications  
   
-6.  **Registration and Sign-in Page:**  
-  6.1 Guests can click on the Log-in button/option on the main page to Register or Sign-in as desired.  
-  6.2 To register, guests can submit a form which will contain their full name, username, email, password, and phone number.  
-  6.3 Users will be able to Sign-in using their username and password, and are able to Sign Out at the click of a button.  
+**Functional System Requirements**  
+  - Requirement #1  
+  Description: The application shall have a Dashboard page.  
+  Rationale: To display various information about the company's CRM overview and situation.  
+  Fit Criterion: The information must coincide with the contents of the customers' Database.  
+  
+  - Requirement #2  
+  Description: The application shall have a Customer Profile Page.  
+  Rationale: To display the basic personal information of a customer.  
+  Fit Criterion: The information must coincide with the contents of the customers' Database.  
+  
+  - Requirement #3  
+  Description: The application shall have a Lead Management section.  
+  Rationale: To keep track of their monthly sales, by using the Customer Retention Strategy.
+  Fit Criterion: The information will be displayed after applying the appropriate formula to calculate the Retention Rate.
+
+  - Requirement #4  
+  Description: The application shall have a Automated Communication feature.  
+  Rationale: To send personalized messages to their loyal and subscribed customers.  
+  Fit Criterion: A default message must be created prior. The customers' personal information will be retrieved later from the Database and replaced in the final message.   
+  
+  - Requirement #5  
+  Description:  The application shall have a Registration and Sign-In option.  
+  Rationale: To redirect users to their appropriate business and access their customers' information.  
+  Fit Criterion: A form must be submitted containing a unique username and corresponding password. Both fields must be set at the moment of Registration, and only the password can be changed at a later moment in time.  
 
 **Non-Functional System Requirements**  
 1.  Performance Requirements:  The software should be able to handle a large volume of data, transactions, and user requests with minimal latency and response time.  
-2.  Scalability Requirements:  Scalability: The software should be able to scale up or down to meet changing business needs, such as adding new users, features, functionalities.  
-3.  Security Requirements:  The software must have security measures in place to protect customer data, prevent unauthorized access, and comply with data protection regulations.  
+2.  Scalability Requirements:  The software should be able to scale up or down to meet changing business needs, such as adding new users, features, functionalities.  
+3.  Security Requirements:  The software must have security measures in place to protect customer data, prevent unauthorized access, and comply with data protection regulations. Email verifications will be used in the case a user forgets their passwords. 
 4.  Software Quality Attributes:  The software must be easy to maintain, with modular and reusable code, clear documentation, and a well-defined development process. Additionally, it must be highly available, fault-tolerant, and resilient to ensure that the system can recover from failures, outages, or errors with minimal downtime.  
 5.  Business Rules:  The software should define different user roles with specific permissions and access levels based on their job responsibilities and the data they need to access. For example, a sales representative might have access to customer contact information and sales data, while an administrator might have access to system settings and user management.
 
-### Application Specifications
+
     
     
   

@@ -2,7 +2,11 @@
 Deadline: 05.04.2023 23:59  
   
     Each group should choose a development model for their application, and submit user requirements and application specifications.
-    
+### References for the Software  
+https://www.salesforce.com/   
+https://www.zoho.com/   
+https://www.pipedrive.com/    
+
 ### Development model: Plan-driven
 **Reasoning:**  
 - This software's development is part of a Software Engineering Course, following a plan specified by the course lecturer.
@@ -115,8 +119,52 @@ Deadline: 05.04.2023 23:59
 3.  Security Requirements:  The software must have security measures in place to protect customer data, prevent unauthorized access, and comply with data protection regulations. Email verifications will be used in the case a user forgets their passwords. 
 4.  Software Quality Attributes:  The software must be easy to maintain, with modular and reusable code, clear documentation, and a well-defined development process. Additionally, it must be highly available, fault-tolerant, and resilient to ensure that the system can recover from failures, outages, or errors with minimal downtime.  
 5.  Business Rules:  The software should define different user roles with specific permissions and access levels based on their job responsibilities and the data they need to access. For example, a sales representative might have access to customer contact information and sales data, while an administrator might have access to system settings and user management.
-
-
-    
-    
+            
+            
+  ### Additional Features  
+These additional features are yet to be decided whether they will be fully implemented for the software.  
   
+  **Customer Profile Management**
+ - The collection of mutually exclusive customer groups that comprise a business’s entire customer base.  
+- Aims to optimize business performance.  
+- Provides differentiated value propositions to different segments of customers.  
+  There are several basic disciplines that can be useful during CPM.  
+ 1. Market segmentation,  
+ 2. Sales forecasting,  
+ 3. Activity-based costing (ABC),  
+ 4. Customer lifetime value estimation,  
+ 5. Data mining.  
+
+**Important CRM KPI: Major methods of sales forecasting:**  
+1. Qualitative methods   
+  o Customer surveys – collecting information from consumers or purchasing officers to get estimates of future sales.  
+  o Sales team estimates – estimates based on sales team experiences.  
+2. Time series  
+  o Moving average – Estimating future sales based on average sales from previous years or periods.   
+  o Exponential smoothing – Using weights when estimating based on past averages.   
+  o Time series decomposition – Estimating future sales based on seasonal patterns in past data.    
+3. Causal Methods   
+  o Leading indicators – Estimating future sales based on some contemporary activity. Exp: Using house sales to estimate furniture sales.   
+  o Regression models – Estimating future sales based on different variables with data. Exp: Estimating demand for cars based on average fuel price, average disposable income etc.
+
+**Customer Experience**  
+Customer experience (CX) is everything related to a business that affects a customer's perception and feelings about it.  
+Moments of truth (MOT) - occur during customer interactions at touch points. These are the moments when customers form evaluative judgments, positive or negative, about their experience.  
+• Less Than Zero Moment of Truth (&lt;ZMOT) - an event occurs that inspires the customer to
+think about making a purchase.  
+
+- Zero Moment of Truth (ZMOT) - the customer begins researching a product.  
+- First Moment of Truth (FMOT) - the customer is looking at a product.  
+- Second Moment of Truth (SMOT) – the customer purchases product.  
+- Interim Moment of Truth (IMOT) -  the period of time from when the customer purchases a product to when he receives it. Sometimes called Absolute Moment of Truth (AMOT).  
+- Third Moment of Truth (TMOT) – the customer provides feedback about the product.  
+
+**Customer Engagement**  
+Customer engagement unfolds in stages over the evolving lifecycle of relationship with the customers. The customer lifecycle includes:  
+1. Lead acquisition: Which begins when a prospect first becomes aware of your brand.  
+2. Purchase: Which transforms a lead into a customer.  
+3. Onboarding: When a customer first begins using your product.  
+4. Adoption: As customer usage continues to grow and expand.  
+5. Escalation: When customer encounters support issues with your product.   
+6. Retention: When a customer decides to become a repeat buyer and loyal customer.    
+

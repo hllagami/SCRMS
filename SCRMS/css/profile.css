@@ -1,0 +1,151 @@
+.wrapper-flex {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    gap: 10px;
+    background-image: url("../images/circles-enhanced.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.profile-wrapper {
+    justify-content: center;
+    width: 100%;
+    background: transparent;
+}
+
+.profile-list {
+    position: relative;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: auto;
+    margin-top: 50px;
+    width: 90%;
+    background: inherit;
+}
+
+/* Profile Card Start */
+
+.profile {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    z-index: 10;
+    width: 40%;
+    height: 400px;
+    margin: 10px;
+    box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.45);
+    border: 3px ridge #b23149;
+    border-radius: 20px;
+    background: #e26179;
+}
+
+/* Card Left Start */
+
+.profile-left {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%
+}
+
+.profile-image {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    height: 60%;
+    border: 1px solid #b23149;
+    border-radius: 20px;
+}
+
+.profile-left-info {
+    float: left;
+    width: 100%;
+    height: 40%;
+    overflow: hidden;
+}
+
+/* Card Left End */
+
+/* Card Right Start */
+
+.profile-info {
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.profile-section {
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    font-weight: 600;
+    color: #f2f2f2;
+    border-bottom: 1px solid #b23149;
+}
+
+.profile-field {
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    color: #f2f2f2;
+    border-bottom: 1px dashed #b23149;
+}
+
+/* Card Right End */
+
+/* Profile Card End */
+
+/* Card Data Input Start */
+
+.profile-field>input {
+    color: #f2f2f2;
+    width: 100%;
+    background-color: #b23149;
+    border-radius: 20px;
+}
+
+.profile-field>input::placeholder {
+    color: silver;
+}
+
+/* Card Data Input End */
+
+/* Card Data Select Start */
+
+.profile-field>select {
+    color: #f2f2f2;
+    width: 100%;
+    background-color: #b23149;
+    border-radius: 20px;
+}
+
+/* Card Data Select End */
+
+/* Submit Button Start */
+
+.sub-button {
+    background-color: #b23149;
+    color: #f2f2f2;
+    height: 35px;
+    width: 50%;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.sub-button:hover {
+    cursor: pointer;
+    background-color: #921129;
+}
+
+/* Submit Button End */

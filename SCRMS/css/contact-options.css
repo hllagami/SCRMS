@@ -1,0 +1,51 @@
+/* Styling for Contact Options pages */
+
+/* Card Data Input Start */
+
+.contact-info {
+    height: 100% !important;
+}
+
+.contact-field>input {
+    color: #f2f2f2;
+    width: 100%;
+    background-color: #b23149;
+    border-radius: 20px;
+}
+
+.contact-field>input::placeholder {
+    color: silver;
+}
+
+/* Card Data Input End */
+
+/* Card Data Select Start */
+
+.contact-field>select {
+    color: #f2f2f2;
+    width: 100%;
+    background-color: #b23149;
+    border-radius: 20px;
+}
+
+/* Card Data Select End */
+
+/* Submit Button Start */
+
+.sub-button {
+    background-color: #b23149;
+    color: #f2f2f2;
+    height: 35px;
+    width: 50%;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.sub-button:hover {
+    cursor: pointer;
+    background-color: #921129;
+}
+
+/* Submit Button End */

@@ -1,7 +1,7 @@
 # SCRMS - Heidi Llagami
 Repository dedicated for CEN302- Software Engineering Project @ Epoka University
 
-The objective of this Software Engineering project is to effectively apply our acquired knowledge as students to tackle an identified problem, and subsequently resolve this problem by developing a software solution.​
+The objective of this Software Engineering project is to effectively apply our acquired knowledge as students to tackle an identified problem, and subsequently resolve this problem by developing a software solution.
 The identified problem for this project was conducted by a needs analysis, which found that the current systems in Albania are inadequate in managing customer data and providing personalized communication. 
   
 Identified Problem: Companies struggle to keep track of customer interactions, track sales leads, and maintain relationships due to the limitations of their current CRM system.  
@@ -35,3 +35,11 @@ The dashboard sections require additional development to reach completion. This 
 The Lead Management and Sales Metrics have yet to be developed, and may undergo changes as the application nears its completion.  
 Furthermore, the automated communication feature, which enables businesses to send customized messages, emails, and offers to customers based on their behavior and preferences, is still awaiting implementation.  
 Additionally, the Graphical User Interface may require more improvement and features in the future, such as color customization, light and dark mode, and more.
+
+# Running The Application Locally 
+* Download the zip file 'SCRMS_zip.zip'
+* Extract the file and copy the folder named 'SCRMS'
+* Paste the folder inside the root directory of your preferred web server (for xampp: 'htdocs')
+* Open PHPMyAdmin (http://localhost/phpmyadmin) and create a database named 'scrms' (make sure you have started the Apache and MySQL)
+* Import or run the code of the 'scrms.sql' file (included in the zip file)
+* Run the index file (http://localhost/scrms)
